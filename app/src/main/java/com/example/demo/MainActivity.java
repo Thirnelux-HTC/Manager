@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         btnCont.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent pacgeCont= new Intent(MainActivity.this,contacts.class);
-                startActivity(pacgeCont);
+                Intent pageCont= new Intent(MainActivity.this,contacts.class);
+                startActivity(pageCont);
             }
         });
 
