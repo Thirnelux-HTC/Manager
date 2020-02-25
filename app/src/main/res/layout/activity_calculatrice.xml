@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/txt_screen"
-        android:layout_width="379dp"
-        android:layout_height="108dp"
+        android:layout_width="383dp"
+        android:layout_height="72dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="8dp"
         android:background="#00FDFDFD"
@@ -50,19 +50,19 @@
 
             <Button
                 android:id="@+id/btn_clear"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="AC" />
 
             <Button
                 android:id="@+id/btn_plus_moins"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="+/-" />
 
             <Button
                 android:id="@+id/btn_mod"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="%" />
 
@@ -81,19 +81,19 @@
 
             <Button
                 android:id="@+id/btn7"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="7" />
 
             <Button
                 android:id="@+id/btn8"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="8" />
 
             <Button
                 android:id="@+id/btn9"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="9" />
 
@@ -111,19 +111,19 @@
 
             <Button
                 android:id="@+id/btn4"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="4" />
 
             <Button
                 android:id="@+id/btn5"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="5" />
 
             <Button
                 android:id="@+id/btn6"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="6" />
 
@@ -141,19 +141,19 @@
 
             <Button
                 android:id="@+id/btn1"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="1" />
 
             <Button
                 android:id="@+id/btn2"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="2" />
 
             <Button
                 android:id="@+id/btn3"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:onClick="Cliquer"
                 android:text="3" />
 
@@ -171,7 +171,7 @@
 
             <Button
                 android:id="@+id/btn0"
-                style="@style/DigitBtnStyle"
+                style="@style/style"
                 android:layout_span="2"
                 android:onClick="Cliquer"
                 android:text="0" />
