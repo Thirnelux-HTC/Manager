@@ -2,8 +2,10 @@ package com.example.demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.net.Uri;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +32,17 @@ public class Contacts_details extends AppCompatActivity {
             ln.setText(last_name);
             tel.setText(phone);
             ugender.setText(gender);
+
+        }
+    }
+    public  void Call(View view) {
+        int id = view.getId();
+        if (id == R.id.Call) {
+            TextView tel = (TextView) findViewById(R.id.user_phone);
+            Intent i = new Intent(Intent.ACTION_DIAL);
+            String p = "tel:" + tel.getText().toString();
+            i.setData(Uri.parse(p));
+            startActivity(i);
 
         }
     }
